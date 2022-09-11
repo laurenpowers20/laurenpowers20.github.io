@@ -6,6 +6,7 @@ body {
   background-color: black;
   color: white;
   font-family: 'Rampart One', cursive;
+  margin: 20px;
 }
 
 a {
@@ -46,7 +47,7 @@ li {
 
 .logo {
   max-height: 90px;
-padding-left: 50px;
+  padding-left: 50px;
 }
 
 .title {
@@ -91,6 +92,7 @@ h1 {
   display: flex;
   align-items: center;
   justify-content: center;
+  text-align: center;
 }
 
 
@@ -152,6 +154,6 @@ h1 {
 
   .projectcard {
     width: 100px;
-    height: 300px;
+    height: 200px;
   }
 }
