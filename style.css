@@ -29,10 +29,12 @@ li {
   padding: 30px;
   font-size: 40px;
 }
+/* About Me Section */
 
 .front-page-container {
   height: 100vh;
   margin-left: 10px;
+ 
 }
 
 .heading-container {
@@ -58,15 +60,37 @@ li {
   padding-top: 0;
 }
 
+.fa-arrow-down {
+  font-size: 40px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.arrow-container {
+  text-align: center;
+  grid-row: 3;
+  grid-column: span 2;
+}
+
+
 .fa-brands {
   font-size: 80px;
+  padding: 10px;
 }
+
+.down-arrow-container {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+/* About*/
 
 .about {
   height: 100vh;
   display: grid;
   grid-template-columns: 2;
-  grid-template-rows: 2;
+  grid-template-rows: 3;
 }
 
 
@@ -75,11 +99,11 @@ h1 {
   grid-row: 1;
 }
 
+
 .bio {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 30px;
   grid-row: 2;
-  display: flex;
   align-items: center;
   justify-content: center;
 }
@@ -94,7 +118,6 @@ h1 {
   justify-content: center;
   text-align: center;
 }
-
 
 #projects {
   height: 100vh;
@@ -118,6 +141,16 @@ h1 {
 
   #contact {
   height: 100vh;
+}
+.arrow-up-container {
+  font-size: 40px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#footericon {
+  font-size: 20px;
+  padding: 5px;;
 }
 
 @media only screen and (max-width: 600px) {
