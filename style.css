@@ -126,6 +126,7 @@ h1 {
 .project-container {
   justify-content: space-around;
   display: flex;
+  margin-bottom: 40px;
 }
 
 .projectcard {
@@ -146,6 +147,7 @@ h1 {
   font-size: 40px;
   margin: 0 auto;
   text-align: center;
+  align-items: baseline;
 }
 
 #footericon {
