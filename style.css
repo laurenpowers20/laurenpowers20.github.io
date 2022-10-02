@@ -6,7 +6,6 @@ body {
   background-color: black;
   color: white;
   font-family: 'Rampart One', cursive;
-  margin: 20px;
 }
 
 a {
@@ -29,12 +28,10 @@ li {
   padding: 30px;
   font-size: 40px;
 }
-/* About Me Section */
 
 .front-page-container {
   height: 100vh;
   margin-left: 10px;
- 
 }
 
 .heading-container {
@@ -49,7 +46,7 @@ li {
 
 .logo {
   max-height: 90px;
-  padding-left: 50px;
+padding-left: 50px;
 }
 
 .title {
@@ -60,50 +57,28 @@ li {
   padding-top: 0;
 }
 
-.fa-arrow-down {
-  font-size: 40px;
-  margin: 0 auto;
-  text-align: center;
-}
-
-.arrow-container {
-  text-align: center;
-  grid-row: 3;
-  grid-column: span 2;
-}
-
-
 .fa-brands {
   font-size: 80px;
-  padding: 10px;
 }
-
-.down-arrow-container {
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  align-items: center;
-}
-/* About*/
 
 .about {
   height: 100vh;
   display: grid;
   grid-template-columns: 2;
-  grid-template-rows: 3;
+  grid-template-rows: 2;
 }
 
 
 h1 {
   font-size: 60px;
-  grid-row: 1;
+  grid-row:  1;
 }
-
 
 .bio {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 30px;
   grid-row: 2;
+  display: flex;
   align-items: center;
   justify-content: center;
 }
@@ -116,9 +91,8 @@ h1 {
   display: flex;
   align-items: center;
   justify-content: center;
-  text-align: center;
 }
-/*Projects*/
+
 
 #projects {
   height: 100vh;
@@ -127,7 +101,7 @@ h1 {
 .project-container {
   justify-content: space-around;
   display: flex;
-  margin-bottom: 20px;
+  flex-wrap: wrap;
 }
 
 .projectcard {
@@ -136,24 +110,15 @@ h1 {
     box-shadow: 5px 5px 20px grey;
     margin: 5px;
     background-color: white;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    display: flex;
-}
-/*Contact*/
-  #contact {
-  height: 90vh;
-  }
-.arrow-up-container {
-  font-size: 40px;
-  margin: 0 auto;
-  text-align: center;
-  
+ ;
 }
 
-#footericon {
-  font-size: 20px;
-  padding: 5px;;
+.card-image {
+  max-height: 100%;
+}
+
+#contact {
+  height: 100vh;
 }
 
 @media only screen and (max-width: 600px) {
@@ -165,7 +130,11 @@ h1 {
   }
 
   .heading {
-    font-size: 40px;
+    font-size: 50px;
+  }
+
+  .title {
+    font-size: 35px;
   }
 
   .fa-brands {
@@ -183,13 +152,22 @@ h1 {
     justify-content: center;
   }
 
+  h1 {
+    font-size: 35px;
+    
+  }
+
   .bio {
     font-size: 25px;
-    margin-left: 20px;
+    margin-left: 10px;
   }
 
   .projectcard {
     width: 100px;
-    height: 200px;
+    height: 250px;
+    box-shadow: 5px 5px 20px grey;
+    margin: 5px;
+    background-color: white;
   }
+
 }
