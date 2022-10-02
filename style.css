@@ -154,7 +154,11 @@ h1 {
 
   h1 {
     font-size: 35px;
-    
+  }
+
+  .card-image {
+    max-width: 100%;
+    max-width: 100%;
   }
 
   .bio {
@@ -163,8 +167,8 @@ h1 {
   }
 
   .projectcard {
-    width: 100px;
-    height: 250px;
+    width: 92px;
+    height: 137px;
     box-shadow: 5px 5px 20px grey;
     margin: 5px;
     background-color: white;
