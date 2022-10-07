@@ -137,6 +137,12 @@ h1 {
     font-size: 35px;
   }
 
+  .about {
+    display: grid;
+    height: 100vh;
+
+  }
+
   .fa-brands {
     font-size: 60px;
     padding: 10px;
