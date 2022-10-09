@@ -18,6 +18,11 @@ a:hover {
   transition: 0.6s ease-in-out;
 }
 
+#hamburger-icon {
+  display: none;
+}
+
+
 nav {
   text-align: right;
 }
