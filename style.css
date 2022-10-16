@@ -72,6 +72,11 @@ padding-left: 50px;
   padding: 7px;
 }
 
+.fa-file-lines{
+  font-size: 80px;
+  padding: 7px;
+}
+
 .about {
   height: 100vh;
   display: grid;
@@ -165,6 +170,11 @@ footer {
   }
 
   .fa-brands {
+    font-size: 60px;
+    padding: 10px;
+  }
+
+  .fa-file-lines{
     font-size: 60px;
     padding: 10px;
   }
