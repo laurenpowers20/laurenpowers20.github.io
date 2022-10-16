@@ -111,6 +111,7 @@ h1 {
 
 #projects {
   height: 100vh;
+  margin: 20px;
 }
 
 .project-container {
@@ -122,14 +123,12 @@ h1 {
 
 
 .projectcard {
-  width: 335px;
-  height: 500px;
+  width: 250px;
+  height: 400px;
   box-shadow: 5px 5px 20px grey;
   border: solid 2px black;
   background-color: transparent;
   border-radius: 5%;
-
- 
 }
 
 .button-container {
@@ -204,7 +203,13 @@ h1 {
 }
 
 #contact {
+  padding: 40px;
+  margin: 20px;
   height: 100vh;
+}
+
+.contact-container{
+ margin-top: 200px;
 }
 
 .arrow-down{
@@ -356,4 +361,5 @@ footer {
   }
 
 }
+
 
