@@ -117,19 +117,90 @@ h1 {
   display: flex;
   flex-wrap: wrap;
   margin: 5px;
-  justify-content: space-around;
+  justify-content: center;
 }
 
 
 .projectcard {
-  width: 300px;
+  width: 335px;
   height: 500px;
   box-shadow: 5px 5px 20px grey;
+  border: solid 2px black;
+  background-color: transparent;
+  border-radius: 5%;
+
+ 
+}
+
+.button-container {
+  display: inline-flex;
+}
+
+/* https://getcssscan.com/css-buttons-examples */
+
+.button-56 {
+  align-items: center;
   background-color: white;
+  border: 2px solid black;
+  border-radius: 8px;
+  box-sizing: border-box;
+  color: black;
+  cursor: pointer;
+  display: flex;
+  font-family: Inter,sans-serif;
+  font-size: 16px;
+  height: 48px;
+  justify-content: center;
+  line-height: 24px;
+  max-width: 100%;
+  padding: 0 25px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  margin: 10px;
+}
+
+.button-56:after {
+  background-color: white;
+  border-radius: 8px;
+  content: "";
+  display: block;
+  height: 48px;
+  left: 0;
+  width: 100%;
+  position: absolute;
+  top: -2px;
+  transform: translate(8px, 8px);
+  transition: transform .2s ease-out;
+  z-index: -1;
+}
+
+.button-56:hover:after {
+  transform: translate(0, 0);
+}
+
+.button-56:active {
+  outline: 0;
+}
+
+.button-56:hover {
+  outline: 0;
+  background-color: black;
+  color: white;
+}
+.card-container {
+  margin: 40px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
 
 .card-image {
   max-height: 100%;
+  border-radius: 5%;
 }
 
 #contact {
@@ -208,7 +279,81 @@ footer {
     height: 137px;
     box-shadow: 5px 5px 20px grey;
     margin: 5px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+  /* Buttons */
+
+  .button-56 {
+    align-items: center;
     background-color: white;
+    border: 1px solid black;
+    border-radius: 8px;
+    box-sizing: border-box;
+    color: black;
+    cursor: pointer;
+    display: flex;
+    font-family: Inter,sans-serif;
+    font-size: 11px;
+    height: 25px;
+    justify-content: center;
+    line-height: 24px;
+    max-width: 90%;
+    padding: 0 20px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    margin: 10px;
+  }
+  
+  .button-56:after {
+    background-color: black;
+    border-radius: 8px;
+    content: "";
+    display: block;
+    height: 25px;
+    left: 0;
+    width: 100%;
+    position: absolute;
+    top: -2px;
+    transform: translate(8px, 8px);
+    transition: transform .2s ease-out;
+    z-index: -1;
+  }
+  
+  .button-56:hover:after {
+    transform: translate(0, 0);
+  }
+  
+  .button-56:active {
+    outline: 0;
+  }
+  
+  .button-56:hover {
+    outline: 0;
+    background-color: black;
+    color: white;
+  }
+
+  .button-container {
+    display: block;
+  }
+
+  .card-image{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .card-container {
+   justify-content: center;
+    text-align: center;
+    text-align: center;
   }
 
 }
+
