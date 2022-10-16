@@ -18,10 +18,8 @@ a:hover {
   transition: 0.6s ease-in-out;
 }
 
-#hamburger-icon {
-  display: none;
-}
 
+/*--------Nav Bar-------------*/
 
 nav {
   text-align: right;
@@ -33,6 +31,9 @@ li {
   padding: 30px;
   font-size: 40px;
 }
+
+/*----------------------------*/
+
 
 .front-page-container {
   height: 100vh;
@@ -55,15 +56,20 @@ padding-left: 50px;
 }
 
 .title {
-  font-size: 50px;
+  font-size: 55px;
   color: cyan;
   display: block;
   margin-top: 0;
   padding-top: 0;
 }
 
+.divider-title {
+  color: white
+}
+
 .fa-brands {
   font-size: 80px;
+  padding: 7px;
 }
 
 .about {
@@ -123,6 +129,17 @@ h1 {
 
 #contact {
   height: 100vh;
+}
+
+.arrow-down{
+  text-align: center;
+  margin-top: 200px;
+  font-size: 75px;
+}
+
+footer {
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 @media only screen and (max-width: 600px) {
