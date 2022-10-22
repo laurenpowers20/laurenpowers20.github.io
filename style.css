@@ -32,8 +32,7 @@ li {
   font-size: 40px;
 }
 
-/*----------------------------*/
-
+/*-----------Front Page First Section-----------*/
 
 .front-page-container {
   height: 100vh;
@@ -77,6 +76,8 @@ padding-left: 50px;
   padding: 7px;
 }
 
+/*-----------About Me Section-----------------*/
+
 .about {
   height: 100vh;
   display: grid;
@@ -108,6 +109,8 @@ h1 {
   justify-content: center;
 }
 
+/*--------------Projects Section--------------*/
+
 
 #projects {
   height: 100vh;
@@ -122,6 +125,13 @@ h1 {
 }
 
 
+.card-container {
+  margin: 40px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
 .projectcard {
   width: 269px;
   height: 400px;
@@ -129,73 +139,7 @@ h1 {
   border: solid 2px black;
   background-color: transparent;
   border-radius: 5%;
-  margin-left: 20px;
-}
-
-.button-container {
-  display: inline-flex;
-}
-
-/* https://getcssscan.com/css-buttons-examples */
-
-.button-56 {
-  align-items: center;
-  background-color: white;
-  border: 2px solid black;
-  border-radius: 8px;
-  box-sizing: border-box;
-  color: black;
-  cursor: pointer;
-  display: flex;
-  font-family: Inter,sans-serif;
-  font-size: 16px;
-  height: 48px;
-  justify-content: center;
-  line-height: 24px;
-  max-width: 100%;
-  padding: 0 25px;
-  position: relative;
-  text-align: center;
-  text-decoration: none;
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
-  margin: 10px;
-}
-
-.button-56:after {
-  background-color: white;
-  border-radius: 8px;
-  content: "";
-  display: block;
-  height: 48px;
-  left: 0;
-  width: 100%;
-  position: absolute;
-  top: -2px;
-  transform: translate(8px, 8px);
-  transition: transform .2s ease-out;
-  z-index: -1;
-}
-
-.button-56:hover:after {
-  transform: translate(0, 0);
-}
-
-.button-56:active {
-  outline: 0;
-}
-
-.button-56:hover {
-  outline: 0;
-  background-color: black;
-  color: white;
-}
-.card-container {
-  margin: 40px;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
+  margin-left: 30px;
 }
 
 .card-image {
@@ -205,6 +149,21 @@ h1 {
   align-items: center;
   justify-content: center;
 }
+
+.projectlinks {
+font-family: Arial, Helvetica, sans-serif;
+display: inline;
+padding: 15px;
+}
+
+.project-link-container {
+  margin-top: 10px;
+}
+
+
+
+
+/*----------Contact Section------------------*/
 
 #contact {
   padding: 40px;
@@ -226,6 +185,8 @@ footer {
   font-size: 20px;
   font-family: Arial, Helvetica, sans-serif;
 }
+
+/*-------------Media Query----------------- */
 
 @media only screen and (max-width: 600px) {
   li {
@@ -287,73 +248,22 @@ footer {
     width: 92px;
     height: 137px;
     box-shadow: 5px 5px 20px grey;
-    margin-right: 10px;
     text-align: center;
     justify-content: center;
     align-items: center;
   }
-  /* Buttons */
-
-  .button-56 {
-    align-items: center;
-    background-color: white;
-    border: 1px solid black;
-    border-radius: 8px;
-    box-sizing: border-box;
-    color: black;
-    cursor: pointer;
-    display: flex;
-    font-family: Inter,sans-serif;
-    font-size: 11px;
-    height: 25px;
-    justify-content: center;
-    line-height: 24px;
-    max-width: 90%;
-    padding: 0 20px;
-    position: relative;
-    text-align: center;
-    text-decoration: none;
-    user-select: none;
-    -webkit-user-select: none;
-    touch-action: manipulation;
-    margin: 10px;
-  }
-  
-  .button-56:after {
-    background-color: black;
-    border-radius: 8px;
-    content: "";
+ 
+  .projectlinks {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
+    font-size: 15px;
     display: block;
-    height: 25px;
-    left: 0;
-    width: 100%;
-    position: absolute;
-    top: -2px;
-    transform: translate(8px, 8px);
-    transition: transform .2s ease-out;
-    z-index: -1;
-  }
-  
-  .button-56:hover:after {
-    transform: translate(0, 0);
-  }
-  
-  .button-56:active {
-    outline: 0;
-  }
-  
-  .button-56:hover {
-    outline: 0;
-    background-color: black;
-    color: white;
-  }
+    }
 
-  .button-container {
-    display: block;
-    text-align: center;
-    justify-content: center;
-    margin: 5px;
-  }
+    .project-link-container {
+      text-align: center;
+     
+    }
 
   .card-image{
     align-items: center;
