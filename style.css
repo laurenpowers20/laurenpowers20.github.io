@@ -125,6 +125,9 @@ h1 {
   text-align: center;
 }
 
+h3{
+  font-family: Arial, Helvetica, sans-serif;
+}
 
 .card-container {
   margin: 10px;
@@ -169,6 +172,7 @@ h1 {
   height: 100vh;
   justify-content: center;
   align-items: center;
+
 }
 
 .contact-container{
@@ -262,6 +266,7 @@ footer {
 
     h3 {
       font-size: 14px;
+      font-family: Arial, Helvetica, sans-serif;
     }
 }
 
